@@ -26,6 +26,6 @@ const App = () => {
 
 export default App;
 
-// var
+//
 // const A = function(myVar) {}
 // const A = (myVar) => {}
