@@ -1,32 +1,31 @@
-import React from 'react'
-import Accordion from './components/Accordion'
+import React from "react";
+import Accordion from "./components/Accordion";
 
 const items = [
   {
-    title: 'What is React?',
-    content:'React is a front end javascript framework'
+    title: "What is React?",
+    content: "React is a front end javascript framework",
   },
   {
-    title:"Why use React?",
-    content: "React is a favorite JS library among engineers"
+    title: "Why use React?",
+    content: "React is a favorite JS library among engineers",
   },
   {
     title: "How do you use React?",
-    content: 'You use React by creating components'
-  }
-]
+    content: "You use React by creating components",
+  },
+];
 
 const App = () => {
   return (
-  <div>
-    <Accordion items={items}/>
+    <div>
+      <Accordion items={items} />
     </div>
-  )
-}
+  );
+};
 
 export default App;
 
-
+// var
 // const A = function(myVar) {}
 // const A = (myVar) => {}
-
